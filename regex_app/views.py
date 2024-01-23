@@ -1,3 +1,8 @@
 from django.shortcuts import render
+import re
 
-# Create your views here.
+def index(request):
+    return render(request, "regex_app/index.html")
+
+def confirm(request):
+    return render(request)
